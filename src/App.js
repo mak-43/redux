@@ -7,6 +7,7 @@ import BooksView from "./features/CRUD/BooksView";
 import AddBook from "./features/CRUD/AddBook";
 import './App.css'
 import Footer from "./Components/Footer";
+import EditeBook from "./features/CRUD/EditeBook";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/' element={<Home />}></Route>
           <Route path='/show-books' element={<BooksView />}></Route>
           <Route path='/add-book' element={<AddBook />}></Route>
+          <Route path='/book-edit' element={<EditeBook />}></Route>
 
 
           <Route path="/post" element={<PostView />}></Route>
